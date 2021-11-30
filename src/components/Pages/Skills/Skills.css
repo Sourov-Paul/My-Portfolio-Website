@@ -1,0 +1,148 @@
+.skill{
+    width: 160px;
+    height: 160px;
+    /* background-color: cadetblue; */
+    position: relative;
+    margin: 30px;
+ }
+ .outer{
+     height: 160px;
+     width: 160px;
+     border-radius: 50%;
+     padding: 20px;
+     box-shadow:6px 6px 10px -1px rgba(0,0,0,0.15),
+              -6px -6px 10px -1px rgba(255,255,255,0.4)
+     ;
+ }
+ .inner{
+     height: 120px;
+     width: 120px;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                 inset -4px -4px 6px -1px rgba(255,255,255,0.4),
+                 -0.5px -0.5px 0px rgba(255,255,255,1),
+                 0.5px 0.5px 0px rgba(0,0,0,0.15),
+                 0px 12px 10px -10px rgba(0,0,0,0.0.5) ;
+ }
+
+ circle{
+     fill:none;
+     stroke: url(#GradientColor);
+     stroke-width: 20px;
+     stroke-dasharray: 472;
+     stroke-dashoffset: 472;
+     animation:sourov 5s linear forwards ;
+ }
+ svg{
+     position: absolute;
+     top: 0;
+     left: 0;
+ 
+ }
+ @keyframes sourov {
+     100%{
+         stroke-dashoffset: 150;
+     }
+ }
+ 
+/* REACT START2 */
+
+.circle2{
+    fill:none;
+    stroke: url(#GradientColor2);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation:sourov2 5s linear forwards ;
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+@keyframes sourov2 {
+    100%{
+        stroke-dashoffset: 150;
+    }
+}
+/* REACT END */
+/* JAVASCRIPT START3 */
+
+.circle3{
+    fill:none;
+    stroke: url(#GradientColor3);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation:sourov3 5s linear forwards ;
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+@keyframes sourov3 {
+    100%{
+        stroke-dashoffset: 150;
+    }
+}
+/* JAVASCRIPT END */
+
+/* BOOTSTRAP START4 */
+
+.circle4{
+    fill:none;
+    stroke: url(#GradientColor4);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation:sourov4 5s linear forwards ;
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+@keyframes sourov4 {
+    100%{
+        stroke-dashoffset: 150;
+    }
+}
+/* BOOTSTRAP END */
+
+
+.bootstrap,.javascript,.react,.back_end{
+    color: rgb(70, 107, 87);
+    font-weight: bold;
+}
+
+
+ /* ============================================================= */
+ 
+  #number,#number2,#number3,#number4{
+      font-weight: bold;
+      font-weight: 600px;
+      color: #555;
+  }
+  /* ============================================================= */
+  .skill-section {
+    background: #e9ecef;
+    padding: 62px;
+}
+ .text-center{
+     text-align: center;
+ }
+ 
+ 
+  .main_skill_div{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      justify-content: space-evenly;
+  }

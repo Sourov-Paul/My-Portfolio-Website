@@ -1,0 +1,56 @@
+h2.text-center {
+
+    font-family: cursive;
+  font-size: 30px;
+  text-shadow: 2px 3px 13px #737171;
+  margin-top: 30px;
+  font-weight: bold;
+
+}
+span.firdtLetter {
+    font-size: 26px;
+    color: #198754;
+    font-family: monospace;
+}
+i.fas.fa-laptop-code.laptop {
+    font-size: 30px;
+    padding: 20px;
+    color: rebeccapurple;
+}
+
+
+p.card-text.some-text-color {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6e6e6e;
+    font-family: inherit;
+}
+i.fas.fa-toolbox {
+    padding: 10px;
+    font-size: 32px;
+    color: #3777d5d1;
+}
+i.fas.fa-palette{
+    padding: 10px;
+    font-size: 32px;
+    color: rebeccapurple;
+}
+.card2{
+}
+
+.card.h-100.main-card{
+    transition:  1s;
+    cursor: pointer;
+
+}
+.card.h-100.main-card:hover {
+    background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
+    color: white;
+    box-shadow: 10px 10px 15px rgb(68, 65, 65);
+
+    
+}
+
+.card.h-100.main-card:hover  p.card-text.some-text-color {
+    color: white;
+}

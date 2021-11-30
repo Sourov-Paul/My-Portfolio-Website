@@ -1,0 +1,139 @@
+/* footer start  */
+
+footer {
+    background-color: #2e0831;
+    height: fit-content;
+    ;
+}
+h2.company_name,h2.about_us,h2.qoick_links {
+    color: wheat;
+}
+
+.cmt1,
+.cmt2,
+.cmt3,
+.cmt4 {
+    margin-top: 30px;
+}
+
+.cmt1.col-sm-12.col-md-3.col-lg-4.sm-mt-5.mt-3 {
+    padding-top: 30px;
+}
+
+.main_footer {
+    display: flex;
+    align-items: center
+}
+
+.location,
+.facebook,
+.instagram,
+.linkedin,
+.youtube {
+    color: #fff8f5;
+    cursor: pointer;
+}
+
+.facebook,
+.instagram,
+.linkedin,
+.youtube {
+    transition: all 0.5s;
+    font-size: 20px
+}
+
+a.link1,
+a.link2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.location {
+    color: red;
+}
+a.link1:hover {
+    color: yellow
+}
+
+a.link2:hover {
+    color: #27e28b
+}
+
+h2.location_icon {
+    text-align: center;
+    cursor: pointer
+}
+
+i.location.fas.fa-map-marker-alt:hover {
+    color: #a8cf52;
+    cursor: pointer
+}
+
+address.address {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h2.company_name {
+    /* text-align: center; */
+    color: #23282dbf;
+    cursor: pointer;
+}
+
+h2.about_us {
+    /* text-align: center; */
+    color: #23282dbf;
+    cursor: pointer;
+}
+
+h2.qoick_links {
+    /* text-align: center; */
+    color: #23282dbf;
+    cursor: pointer;
+}
+
+p.infork {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer
+}
+
+.facebook:hover {
+    color: #0d6efd;
+    background: white;
+    border-radius: 25px
+}
+
+.instagram:hover {
+    color: #bd2a6b;
+    background: #fff5f87b;
+    border-radius: 25px
+}
+
+.facebook:hover {
+    color: #0d6efd;
+    background: white;
+    border-radius: 25px
+}
+
+.instagram:hover {
+    color: #bd2a6b;
+    background: #fff5f87b;
+    border-radius: 25px
+}
+
+.linkedin:hover {
+    color: #0077B5;
+    border-radius: 25px
+}
+
+.youtube:hover {
+    color: red;
+    background: white
+}
+
+
+/* footer end */

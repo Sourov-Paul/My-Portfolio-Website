@@ -1,0 +1,82 @@
+img.text-center.img-fluid {
+    height: 95px;
+    width: 247px;
+}
+a.websiteLink,a.moreDetails {
+    text-decoration:none;
+    padding:10px;
+    background:aliceblue;
+    border-radius:10px;
+    margin:10px;
+    transition:all 0.5s;
+    color:#eb7f6b;
+    font-weight:800
+ 
+}
+a.moreDetails{
+    color:#a76522
+}
+a.moreDetails:hover{
+    background:#e9ecef;
+    color:#eb7f6b
+}
+a.websiteLink:hover{
+background:#e9ecef;
+color:#a76522
+
+}
+.col-sm-12.col-md-4.col-lg-4.texx {
+    border-left: 4px solid #ced1d3b3;
+  
+    padding: 5px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+h2.react-reveal.text-center {
+    font-family: cursive;
+    font-size: 20px;
+    text-shadow: 2px 3px 13px #737171;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.row.container.m-auto.mt-5.project2,.row.container.m-auto.project1,.row.container.m-auto.mt-5.project3{
+    padding: 20px;
+}
+
+
+
+.row.container.m-auto.mt-5.project2:hover {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px black;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+.row.container.m-auto.project1:hover {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px black;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.row.container.m-auto.mt-5.project3:hover {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px black;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
