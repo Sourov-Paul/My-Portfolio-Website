@@ -11,8 +11,8 @@ const Home = () => {
             <Navegation></Navegation>
            <Banner></Banner>
            <Skills></Skills>
-           <Service></Service>
            <Projects></Projects>
+           <Service></Service>
         
     
 

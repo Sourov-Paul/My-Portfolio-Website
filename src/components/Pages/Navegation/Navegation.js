@@ -1,7 +1,6 @@
 import React from 'react';
-
 import "./Navegation.css"
-
+// import { Link} from "react-scroll"
 
 
 const Navegation = () => {
@@ -19,16 +18,16 @@ const Navegation = () => {
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/home">Home</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#about">About</a>
-              </li>
+              {/* <li className="nav-item">
+                <Link className="nav-link" to="/about">About</Link>
+              </li> */}
              
               
               <li className="nav-item">
                 <a className="nav-link " href="#service">Service</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="/projects">Projects</a>
+                <a className="nav-link " href="#projects">Projects</a>
               </li>
               <li className="nav-item">
                 <a href="https://form.jotform.com/213322330020432" className="nav-link ">Contact</a>

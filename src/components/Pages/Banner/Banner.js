@@ -2,6 +2,8 @@ import React from "react";
 import Navegation from "./../Navegation/Navegation";
 import "./Banner.css";
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom';
+import Typewriter from 'typewriter-effect';
 
 
 
@@ -17,24 +19,30 @@ const Banner = () => {
         <div className="second-div">
           <div className="container p-3">
             <div className="row">
-              <div  className=" mb-sm-5 col-sm-12 col-md-6 col-lg-6">
+              <div className=" mb-sm-5 col-sm-12 col-md-6 col-lg-6">
                 <Fade left className="main_info mt-sm-5">
                   <div className="mt-5">
                     <strong className="hello">Hello I'm</strong>{" "}
-                    <h3 className="m-0">Front-End Web Developer</h3>
-                    <h4 className="name">Sourov Paul</h4>
-                    <p className="some-text sm-color">
-                      I will create the website of your choice. Given a chance.
-                      I am ready to create any website you wish. I can make
-                      professional design animation responsive SEO friendly
-                      website for you.
-                    </p>
-                    <a
+                    <h3 className="m-0">Sourov Paul</h3>
+                    <h4 className="name">Front-End Web Developer</h4>
+                   
+                    <Typewriter
+                      options={{
+                        strings: ["I am ready to create any website you wish.",
+                         "I can make professional design animation responsive SEO  friendly website for you."],
+                        autoStart: true,
+                        delay: 75,
+                        loop: true,
+                      }}
+                    />
+                    <Link
                       className="nav-link borderCv"
-                      href=" https://drive.google.com/file/d/13VahNrhS12W3I50EMA9-e54cHsCZk9OB/view?usp=sharing"
+                      to="/Sourov-Paul-MREN-Stack-Developer Resume.pdf"
+                      download
+                      target="_blank"
                     >
                       Download Resume/CV
-                    </a>
+                    </Link>
                     <div className="socialIcon">
                       <a href="https://www.facebook.com/Sourov.Paul.Web.Developer">
                         {" "}
@@ -55,13 +63,13 @@ const Banner = () => {
                 </Fade>
               </div>
               <div className=" rounded col-sm-12 col-md-6 col-lg-6">
-               <Fade right className="">
-               <img
-                  className="img-fluid newIMG"
-                  src="https://scontent.fdac134-1.fna.fbcdn.net/v/t1.6435-9/106781412_632055637659137_4843157035784025073_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_eui2=AeEC-RstWb9vAW6C7lFKAnAaU7rbx9hgNoxTutvH2GA2jERktAIznm2vqTmpwxL3a-wGOr3FpuaWXJRWuqNwS6wY&_nc_ohc=MB3yZ6gpm5AAX-W6lZi&_nc_ht=scontent.fdac134-1.fna&oh=73023afa18a192f10a81fc4e17d02bdd&oe=61CBDE35"
-                  alt=""
-                />
-               </Fade>
+                <Fade right className="">
+                  <img
+                    className="img-fluid newIMG"
+                    src="https://scontent.fdac134-1.fna.fbcdn.net/v/t1.6435-9/106781412_632055637659137_4843157035784025073_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_eui2=AeEC-RstWb9vAW6C7lFKAnAaU7rbx9hgNoxTutvH2GA2jERktAIznm2vqTmpwxL3a-wGOr3FpuaWXJRWuqNwS6wY&_nc_ohc=MB3yZ6gpm5AAX-W6lZi&_nc_ht=scontent.fdac134-1.fna&oh=73023afa18a192f10a81fc4e17d02bdd&oe=61CBDE35"
+                    alt=""
+                  />
+                </Fade>
               </div>
             </div>
           </div>

@@ -6,20 +6,20 @@ import Wobble from 'react-reveal/Wobble';
 
 const Service = () => {
   return (
-    <div>
+    <div id="service" className="p-5">
       <Wobble><h2 className="text-center">Service</h2></Wobble>
     
       <div className="main-service container p-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4 w-90">
-          <div class="col">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 w-90">
+          <div className="col">
            <Fade left>
-           <div class="card h-100 main-card">
+           <div className="card h-100 main-card">
               <h5 className="text-center">
                 <i className="fas fa-laptop-code laptop"></i>
               </h5>
               <h4 className="text-center">Work Procedure</h4>
-              <div class="card-body">
-                <p class="card-text some-text-color">
+              <div className="card-body">
+                <p className="card-text some-text-color">
                  
                   <span className="firdtLetter">I </span>will do your work very
                   seriously. You will not be disappointed in my work. I will
@@ -30,15 +30,15 @@ const Service = () => {
             </div>
            </Fade>
           </div>
-          <div class="col">
+          <div className="col">
            <Jump>
-           <div class="card h-100 main-card card2">
+           <div className="card h-100 main-card card2">
               <h5 className="text-center">
                 <i className="fas fa-toolbox"></i>
               </h5>
               <h4 className="text-center">Works Tools</h4>
-              <div class="card-body">
-                <p class="card-text some-text-color some-text-color2">
+              <div className="card-body">
+                <p className="card-text some-text-color some-text-color2">
                   {" "}
                   <span className="firdtLetter">T</span>hese tools and libraries
                   I use for VS code, bootstrap, animation, Material UI, Tailwind
@@ -48,15 +48,15 @@ const Service = () => {
             </div>
            </Jump>
           </div>
-          <div class="col">
+          <div className="col">
            <Fade right>
-           <div class="card h-100 main-card">
+           <div className="card h-100 main-card">
               <h5 className="text-center">
                 <i className="fas fa-palette"></i>
               </h5>
               <h4 className="text-center">Quality</h4>
-              <div class="card-body">
-                <p class="card-text some-text-color">
+              <div className="card-body">
+                <p className="card-text some-text-color">
                   {" "}
                   <span className="firdtLetter">T</span>hese tools and libraries
                   I use for VS code, bootstrap, animation, Material UI, Tailwind

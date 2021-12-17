@@ -6,7 +6,13 @@ strong.hello {
     color: white;
     font-size: 20px;
 }
-
+.react-reveal.mt-5 {
+    display: block;
+    width: 100%;
+}
+span.Typewriter__wrapper {
+    color: aquamarine;
+}
 h3.m-0 {
     color: white;
 }
@@ -36,9 +42,7 @@ a.nav-link.borderCv:hover{
     color: white;
 
 }
-.newIMG{
-    border-radius: 50%;
-}
+
 
 .socialIcon {
     width: fit-content;
@@ -93,13 +97,13 @@ i.fab.fa-github.github:hover{
 @media only screen and (min-width: 776px) {
     .newIMG {
         border-radius: 50%;
-        width: 300px;
+       
         display: flex;
     }
     
     .col-sm-12.col-md-6.col-lg-6 {
         display: flex;
-        align-items: flex-end;
+      
         justify-content: flex-end;
     }
   }

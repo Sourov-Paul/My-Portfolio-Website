@@ -31,7 +31,7 @@ const Skills = () => {
             document.getElementById('number2').innerHTML= counter2+"%"
         }
       
-    },[45])
+    },[65])
     // =======================
     let counter3=0;
     setInterval(()=>{
@@ -43,7 +43,7 @@ const Skills = () => {
             document.getElementById('number3').innerHTML= counter3+"%"
         }
       
-    },[50])
+    },[65])
     // =======================
     let counter4=0;
     setInterval(()=>{
@@ -55,7 +55,7 @@ const Skills = () => {
             document.getElementById('number4').innerHTML= counter4+"%"
         }
       
-    },[40])
+    },[57])
 
 
 

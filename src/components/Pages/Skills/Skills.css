@@ -66,7 +66,7 @@ svg{
 }
 @keyframes sourov2 {
     100%{
-        stroke-dashoffset: 150;
+        stroke-dashoffset: 100;
     }
 }
 /* REACT END */
@@ -88,7 +88,7 @@ svg{
 }
 @keyframes sourov3 {
     100%{
-        stroke-dashoffset: 150;
+        stroke-dashoffset:120;
     }
 }
 /* JAVASCRIPT END */
@@ -111,7 +111,7 @@ svg{
 }
 @keyframes sourov4 {
     100%{
-        stroke-dashoffset: 150;
+        stroke-dashoffset: 85;
     }
 }
 /* BOOTSTRAP END */
