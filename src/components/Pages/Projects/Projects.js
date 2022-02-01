@@ -26,7 +26,7 @@ const Projects = () => {
                   </p>
                   <a
                     className="m-2"
-                    href="https://happy-shopping-camera.web.app"
+                    href="https://vigorous-franklin-91c743.netlify.app/"
                   >
                     Live Demo
                   </a>
@@ -107,6 +107,77 @@ const Projects = () => {
               </div>
               <div class="card-body">
                 <h5 class="card-title">Project 3</h5>
+                <p class="card-text">
+                <ul>
+                  <li>This website is for users to find the best country doctors.</li>
+                  <li>Use Privet Route.</li>
+                  <li>Patients will find all the good doctors.</li>
+                  <li>Can't talk to the doctor until login.</li>
+                </ul>
+                </p>
+              </div>
+            </div>
+            </Pulse>
+          </div>
+          {/* ====================================== */}
+          <div class="col">
+          <Pulse>
+            <div class="card">
+              <div className="ui-card ">
+                <img
+                  className="img-fluid"
+                  src="https://i.postimg.cc/3RmKF0F2/Screenshot-152.png"
+                  alt=""
+                />
+                <div className="description">
+                  <p className="project-detail-short">
+                  This website is used only front-end.
+                  You Want to see my Project please click any button.
+                  </p>
+                  <a className="m-2" href="https://friendly-ramanujan-39d91c.netlify.app/">
+                    Live Demo
+                  </a>
+                  <Link to="/project4">Details</Link>{" "}
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Project 4</h5>
+                <p class="card-text">
+                <ul>
+                  <li>This website is for users to find the best country doctors.</li>
+                  <li>Use Privet Route.</li>
+                  <li>Patients will find all the good doctors.</li>
+                  <li>Can't talk to the doctor until login.</li>
+                </ul>
+                </p>
+              </div>
+            </div>
+            </Pulse>
+          </div>
+          
+          {/* ====================================== */}
+          <div class="col">
+          <Pulse>
+            <div class="card">
+              <div className="ui-card ">
+                <img
+                  className="img-fluid"
+                  src="https://i.postimg.cc/HkWSbwfK/Screenshot-165.png"
+                  alt=""
+                />
+                <div className="description">
+                  <p className="project-detail-short">
+                  This website is used only front-end.
+                  You Want to see my Project please click any button.
+                  </p>
+                  <a className="m-2" href="https://modest-austin-e43477.netlify.app">
+                    Live Demo
+                  </a>
+                  <Link to="/project4">Details</Link>{" "}
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Project 5</h5>
                 <p class="card-text">
                 <ul>
                   <li>This website is for users to find the best country doctors.</li>

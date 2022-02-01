@@ -4,6 +4,7 @@ img.react-reveal.img-fluid.newIMG {
 .main_banner{
     background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);  
      height: fit-content;
+     
 }
 strong.hello {
     color: white;
@@ -19,7 +20,9 @@ span.Typewriter__wrapper {
 h3.m-0 {
     color: white;
 }
-
+.social-icon{
+    text-decoration: none;
+}
 h4.name {
     color: #82d26e;
 }

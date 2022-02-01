@@ -10,7 +10,7 @@ const Skills = () => {
  
     let counter=0;
     setInterval(()=>{
-        if(counter===70){
+        if(counter===80){
             clearInterval()
         }
         else{
@@ -65,7 +65,7 @@ const Skills = () => {
     return (
       <Fade down className='skill-section'>
           <Spin className="">
-          <h2 className="text-center">My Skills</h2>
+          <h2 className="text-center">Tools</h2>
           </Spin>
       <div className='main_skill_div '>
          
@@ -73,7 +73,7 @@ const Skills = () => {
           <div className="outer">
             <div className="inner">
               <div id="number"></div>
-              <span className="back_end">Back-End</span>
+              <span className="back_end">VS CODE</span>
             </div>
           </div>
 
@@ -98,7 +98,7 @@ const Skills = () => {
           <div className="outer">
             <div className="inner">
               <div id="number2"></div>
-              <span className="react">React</span>
+              <span className="react">HEROKU</span>
             </div>
           </div>
 
@@ -130,7 +130,7 @@ const Skills = () => {
           <div className="outer">
             <div className="inner">
               <div id="number3"></div>
-              <span className="javascript">Javascript</span>
+              <span className="javascript">GITHUB</span>
             </div>
           </div>
 
@@ -162,7 +162,7 @@ const Skills = () => {
           <div className="outer">
             <div className="inner">
               <div id="number4"></div> 
-              <span className="bootstrap">Bootstrap</span>
+              <span className="bootstrap">FIREBASE</span>
             </div>
           </div>
 

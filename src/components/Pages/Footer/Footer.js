@@ -1,56 +1,87 @@
 import React from 'react';
-import "./Footer.css"
+import './Footer.css';
+
+
+
 const Footer = () => {
     return (
-      
+        <div>
+            
 
-<footer> 
-        <div className="container">
-
-
-
-            <div className="main_footer">
-
-                <div className="row ">
-                    <div className="cmt1 col-sm-12 col-md-4 col-lg-4 sm-mt-5 mt-3">
-                        <h2 className="location_icon"><i className="location fas fa-map-marker-alt"></i></h2>
-                        <address className="address">
-                            <span> <b>Address: </b> Kalihati,Tangail</span> <br />
-                            <span> <b>Email: </b>sourovpaul583@gmail.com</span> <br />
-                            <span> <b>Phone: </b>+8801643-559826</span>
-            </address>
+<footer class="new_footer_area bg_color">
+            <div class="new_footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style={{visibility: "visible", animationDelay: "0.2s", animationName: "fadeInLeft"}}>
+                                <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                                <p>Don't miss the login to my website</p>
+                                <form action="/" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                                    <input type="text" name="EMAIL" class="form-control memail" placeholder="Email" />
+                                    <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                                    <p class="mchimp-errmessage" style={{display: "none"}}></p>
+                                    <p class="mchimp-sucmessage" style={{display: "none"}}></p>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style={{visibility: "visible", animationDelay:" 0.4s", animationName: "fadeInLeft"}}>
+                                <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+                                <ul class="list-unstyled f_list">
+                                    <li><a href="/">Company</a></li>
+                                    <li><a href="/">Android App</a></li>
+                                    <li><a href="/">ios App</a></li>
+                                    <li><a href="/">Desktop</a></li>
+                                    <li><a href="/">Projects</a></li>
+                                    <li><a href="/">My tasks</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style={{visibility: "visible", animationDelay: "0.6s", animationName: "fadeInLeft"}}>
+                                <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                                <ul class="list-unstyled f_list">
+                                    <li><a href="/">FAQ</a></li>
+                                    <li><a href="/">Term &amp; conditions</a></li>
+                                    <li><a href="/">Reporting</a></li>
+                                    <li><a href="/">Documentation</a></li>
+                                    <li><a href="/">Support Policy</a></li>
+                                    <li><a href="/">Privacy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style={{visibility: "visible", animationDelay: '0.8s', animationName: "fadeInLeft"}}>
+                                <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+                                <div class="f_social_icon">
+                                    <a href="https://www.facebook.com/Sourov.Paul.Web.Developer" class="fab fa-facebook"> </a>
+                                    <a href="https://twitter.com/SourovP23001323" class="fab fa-twitter"> </a>
+                                    <a href="https://www.linkedin.com/in/sourov-paul-169668150/" class="fab fa-linkedin"> </a>
+                                   
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="cmt2 col-sm-12 col-md-4 col-lg-2">
-                        <h2 className="company_name">Company</h2>
-                        <a className="link1" href="#">About </a> <br/>
-                        <a className="link1" href="#">Project</a> <br/>
-                        <a className="link1" href="#">Our Team</a> <br/>
-                        <a className="link1" href="#">Terms Conditions</a> <br/>
-                        <a className="link1" href="#">Submit Listing</a> <br/>
-                    </div>
-
-
-                    <div className="cmt4 col-sm-12 col-md-4 col-lg-4">
-                        <h2 className="qoick_links">QUICK Links</h2>
-                        <p className="infork">
-                          
-                           </p>
+                </div>
+                <div class="footer_bg">
+                    <div class="footer_bg_one"></div>
+                    <div class="footer_bg_two"></div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-sm-7">
+                            <p class="mb-0 f_400">© 2022 All rights reserved.</p>
+                        </div>
+                        <div class="col-lg-6 col-sm-5 text-right">
+                            <p>Made with <i class="icon_heart"></i> in <a href="https://www.facebook.com/Sourov.Paul.Web.Developer">Sourov Paul</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-
-        <div className="social_icons pe-5 d-flex flex-row-reverse">
-
-            <i className="m-2 youtube fab fa-youtube"></i>
-            <i className="m-2 linkedin fab fa-linkedin"></i>
-            <i className="m-2 instagram fab fa-instagram-square"></i>
-            <i className="m-2 facebook fab fa-facebook"></i>
-
-        </div>
         </footer>
-
+        </div>
     );
 };
 

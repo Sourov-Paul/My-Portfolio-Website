@@ -1,46 +1,79 @@
 import React from "react";
+import Navegation from "./../../../Navegation/Navegation";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./Project1Details.css";
-import Navegation from './../../../Navegation/Navegation';
-
-
-const Project1Details = () => {
-
-
+const Project4Details = () => {
   return (
     <div className="main_div ">
       <Navegation></Navegation>
-
       <div className="bg-color">
         <div className="slider d-block">
           <div className="rotator">
             <div className="items">
-              <img src="https://i.ibb.co/HVdnzTK/Screenshot-83.png" alt="" />
+              <img
+                height="fixed-content"
+                src="https://i.postimg.cc/50dNk3ry/Screenshot-152.png"
+                alt=""
+              />
+            </div>
+
+            <div className="items">
+              <img
+                src="https://i.postimg.cc/Y96qcFc3/Screenshot-153.png"
+                alt=""
+              />
+            </div>
+
+            <div className="items">
+              <img
+                src="https://i.postimg.cc/NFbsFwj2/Screenshot-154.png"
+                alt=""
+              />
             </div>
             <div className="items">
-              <img src="https://i.ibb.co/GQzs3vb/Screenshot-84.png" alt="" />
+              <img
+                src="https://i.postimg.cc/wxkT0DQx/Screenshot-155.png"
+                alt=""
+              />
+            </div>
+
+            <div className="items">
+              <img
+                src="https://i.postimg.cc/4yGvZpYN/Screenshot-157.png"
+                alt=""
+              />
+            </div>
+
+            <div className="items">
+              <img
+                src="https://i.postimg.cc/SxR6ySx8/Screenshot-158.png"
+                alt=""
+              />
+            </div>
+
+            <div className="items">
+              <img
+                src="https://i.postimg.cc/tRdtkvc1/Screenshot-160.png"
+                alt=""
+              />
             </div>
             <div className="items">
-              <img src="https://i.ibb.co/8XyDpCF/Screenshot-85.png" alt="" />
+              <img
+                src="https://i.postimg.cc/mDfCN7NN/Screenshot-161.png"
+                alt=""
+              />
             </div>
             <div className="items">
-              <img src="https://i.ibb.co/rmJ6X0K/Screenshot-86.png" alt="" />
+              <img
+                src="https://i.postimg.cc/GhcP5J0X/Screenshot-162.png"
+                alt=""
+              />
             </div>
             <div className="items">
-              <img src="https://i.ibb.co/VJdHQkD/Screenshot-87.png" alt="" />
-            </div>
-            <div className="items">
-              <img src="https://i.ibb.co/6trvqkf/Screenshot-89.png " alt="" />
-            </div>
-            <div className="items">
-              <img src="https://i.ibb.co/44LNdqN/Screenshot-88.png" alt="" />
-            </div>
-            <div className="items">
-              <img src="https://i.ibb.co/nnmGZNm/Screenshot-127.png" alt="" />
-            </div>
-            <div className="items">
-              <img src="https://i.ibb.co/2sngTWZ/Screenshot-128.png" alt="" />
+              <img
+                src="https://i.postimg.cc/QMWcTf5d/Screenshot-163.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -77,5 +110,6 @@ const Project1Details = () => {
       </section>
     </div>
   );
-  }
-export default Project1Details;
+};
+
+export default Project4Details;

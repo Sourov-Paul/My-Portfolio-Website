@@ -3,7 +3,7 @@ import './Timeline.css'
 const Timeline = () => {
     return (
         <div>
-            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+            
 
 <section className="timeline_area section_padding_130">
     <div className="container">
@@ -57,7 +57,7 @@ const Timeline = () => {
                     {/* <!-- Single Timeline Content--> */}
                     <div className="single-timeline-area">
                         <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{visibility:'visible',animationDelay:'0.1s',animationName:'fadeInLeft'}}>
-                            <p>2020</p>
+                            <p>2022</p>
                         </div>
                         <div className="row">
                             <div className="col-12 col-md-6 col-lg-4">
@@ -92,7 +92,7 @@ const Timeline = () => {
                     {/* <!-- Single Timeline Content--> */}
                     <div className="single-timeline-area">
                         <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{visibility:'visible',animationDelay:'0.1s',animationName:'fadeInLeft'}}>
-                            <p>2019</p>
+                            <p>2021</p>
                         </div>
                         <div className="row">
                             <div className="col-12 col-md-6 col-lg-4">

@@ -9,6 +9,7 @@ import Project1 from './components/Pages/AllProjects/Project1/Project1';
 import Project2 from './components/Pages/AllProjects/Project2/Project2';
 import Project3 from './components/Pages/AllProjects/Project3/Project3';
 import NotFound from './components/Pages/NotFound/NotFound';
+import Project4 from './components/Pages/AllProjects/Project4/Project4';
 
 
 
@@ -28,6 +29,7 @@ const App = () => {
                     <Route path="/project1" element={<Project1></Project1>} />
                     <Route path="/project2" element={<Project2></Project2>} />
                     <Route path="/project3" element={<Project3></Project3>} />
+                    <Route path="/project4" element={<Project4></Project4>} />
                     <Route path="/about" element={<About></About>} />
                     <Route path="*" element={<NotFound></NotFound>} />
                     

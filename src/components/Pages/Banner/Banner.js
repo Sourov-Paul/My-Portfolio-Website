@@ -4,7 +4,7 @@ import "./Banner.css";
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
-import Particles from "react-tsparticles";
+// import Particles from "react-tsparticles";
 
 
 
@@ -15,19 +15,19 @@ import Particles from "react-tsparticles";
 const Banner = () => {
 
   
-  const particlesInit = (main) => {
-    console.log(main);
+  // const particlesInit = (main) => {
+  //   console.log(main);
 
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-  };
+  //   // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+  // };
 
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
+  // const particlesLoaded = (container) => {
+  //   console.log(container);
+  // };
 
   return (
     <div>
-          <Particles
+          {/* <Particles
           
       id="tsparticles"
       init={particlesInit}
@@ -86,7 +86,7 @@ const Banner = () => {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 4,
+            speed: 3,
             straight: false,
           },
           number: {
@@ -109,7 +109,7 @@ const Banner = () => {
         },
         detectRetina: true,
       }}
-    />
+    /> */}
 
       <div className="main_banner">
         <Navegation></Navegation> <br /> <br /> <br />
@@ -141,17 +141,17 @@ const Banner = () => {
                       Download Resume/CV
                     </Link>
                     <div className="socialIcon">
-                      <a href="https://www.facebook.com/Sourov.Paul.Web.Developer">
+                      <a className="social-icon" href="https://www.facebook.com/Sourov.Paul.Web.Developer">
                         {" "}
                         <i className="fab fa-facebook facebook"></i>
                       </a>
 
-                      <a href="https://www.linkedin.com/in/sourov-paul-169668150">
+                      <a className="social-icon" href="https://www.linkedin.com/in/sourov-paul-169668150">
                         {" "}
                         <i className="fab fa-linkedin-in linkedin"></i>
                       </a>
 
-                      <a href="https://github.com/Sourov-Paul">
+                      <a className="social-icon" href="https://github.com/Sourov-Paul">
                         {" "}
                         <i className="fab fa-github github"></i>
                       </a>
@@ -163,7 +163,7 @@ const Banner = () => {
                 <Fade right className="">
                   <img
                     className="img-fluid newIMG"
-                    src="https://scontent.fdac134-1.fna.fbcdn.net/v/t1.6435-9/106781412_632055637659137_4843157035784025073_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_eui2=AeEC-RstWb9vAW6C7lFKAnAaU7rbx9hgNoxTutvH2GA2jERktAIznm2vqTmpwxL3a-wGOr3FpuaWXJRWuqNwS6wY&_nc_ohc=MB3yZ6gpm5AAX-W6lZi&_nc_ht=scontent.fdac134-1.fna&oh=73023afa18a192f10a81fc4e17d02bdd&oe=61CBDE35"
+                    src="https://i.ibb.co/bzcR9pJ/profile-image.jpg"
                     alt=""
                   />
                 </Fade>

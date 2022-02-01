@@ -39,10 +39,10 @@ const Service = () => {
               <h4 className="text-center">Works Tools</h4>
               <div className="card-body">
                 <p className="card-text some-text-color some-text-color2">
-                  {" "}
+                 
                   <span className="firdtLetter">T</span>hese tools and libraries
                   I use for VS code, bootstrap, animation, Material UI, Tailwind
-                  css, heroic, etc.
+                  css, Heroku, etc.
                 </p>
               </div>
             </div>
@@ -57,10 +57,10 @@ const Service = () => {
               <h4 className="text-center">Quality</h4>
               <div className="card-body">
                 <p className="card-text some-text-color">
-                  {" "}
+                 
                   <span className="firdtLetter">T</span>hese tools and libraries
                   I use for VS code, bootstrap, animation, Material UI, Tailwind
-                  css, heroic, etc.
+                  css, Heroku, etc.
                 </p>
               </div>
             </div>
