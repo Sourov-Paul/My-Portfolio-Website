@@ -57,7 +57,7 @@ const Project1Details = () => {
               <li>
                 <a
                   target="blank"
-                  href="https://github.com/Sourov-Paul/Assignment-12-clint-site"
+                  href="https://github.com/Sourov-Paul/Camera-Shopping-Client-site"
                 >
                   Front-Code
                 </a>
@@ -65,7 +65,7 @@ const Project1Details = () => {
               <li>
                 <a
                   target="blank"
-                  href="https://github.com/Sourov-Paul/Assignment-12-Server-Site"
+                  href="https://github.com/Sourov-Paul/Camera-Shopping-Server-site"
                 >
                   Server-Code
                 </a>

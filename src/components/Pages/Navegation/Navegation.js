@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Navegation.css"
-// import { Link} from "react-scroll"
 
 
 const Navegation = () => {
@@ -9,7 +8,7 @@ const Navegation = () => {
       <div className="">
             <nav className="fixed-top navbar navbar-expand-lg navbar-dark background-clr">
         <div className="container">
-          <a className="navbar-brand" href="/home">SP Developer</a>
+          <a className="navbar-brand" href="/home"> <img className='img-fluid logo' src="https://i.ibb.co/0C7NR0h/protfolio-Logo2-removebg-preview.png" alt="" /> </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

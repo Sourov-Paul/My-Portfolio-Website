@@ -1,3 +1,8 @@
 .background-clr{
     background-color: #021025;
 }
+img.img-fluid.logo {
+    width: 175px;
+    max-width: 100%;
+    height: 39px;
+}

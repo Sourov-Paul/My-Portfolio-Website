@@ -89,14 +89,14 @@ const Project3Details = () => {
           <div className="col">
             <ul className="p1-details">
               <li>
-                <a target="blank" href="https://vigorous-franklin-91c743.netlify.app/">
+                <a target="blank" href="/">
                   Live Link
                 </a>
               </li>
               <li>
                 <a
                   target="blank"
-                  href="https://github.com/Sourov-Paul/Assignment-12-clint-site"
+                  href=" "
                 >
                   Front-Code
                 </a>
@@ -104,7 +104,7 @@ const Project3Details = () => {
               <li>
                 <a
                   target="blank"
-                  href="https://github.com/Sourov-Paul/Assignment-12-Server-Site"
+                  href=" "
                 >
                   Server-Code
                 </a>

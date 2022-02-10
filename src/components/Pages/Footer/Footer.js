@@ -18,7 +18,8 @@ const Footer = () => {
                                 <p>Don't miss the login to my website</p>
                                 <form action="/" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
                                     <input type="text" name="EMAIL" class="form-control memail" placeholder="Email" />
-                                    <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                                    <button class="btn btn_get btn_get_two" type="submit">Subscribe</button> <br />
+                                    <img className='img-fluid ' src="https://i.ibb.co/0C7NR0h/protfolio-Logo2-removebg-preview.png" alt="" />
                                     <p class="mchimp-errmessage" style={{display: "none"}}></p>
                                     <p class="mchimp-sucmessage" style={{display: "none"}}></p>
                                 </form>
@@ -74,9 +75,7 @@ const Footer = () => {
                         <div class="col-lg-6 col-sm-7">
                             <p class="mb-0 f_400">© 2022 All rights reserved.</p>
                         </div>
-                        <div class="col-lg-6 col-sm-5 text-right">
-                            <p>Made with <i class="icon_heart"></i> in <a href="https://www.facebook.com/Sourov.Paul.Web.Developer">Sourov Paul</a></p>
-                        </div>
+                       
                     </div>
                 </div>
             </div>

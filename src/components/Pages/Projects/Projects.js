@@ -10,6 +10,42 @@ const Projects = () => {
       <div className="" id='projects'>  
         <div   className="container">
         <div class="row row-cols-1 row-cols-md-3 mt-5 g-4 projectas">
+           {/* ====================================== */}
+           <div class="col">
+          <Pulse>
+            <div class="card">
+              <div className="ui-card ">
+                <img
+                  className="img-fluid"
+                  src="https://i.postimg.cc/HkWSbwfK/Screenshot-165.png"
+                  alt=""
+                />
+                <div className="description">
+                  <p className="project-detail-short">
+                  This website is used only front-end.
+                  You Want to see my Project please click any button.
+                  </p>
+                  <a className="m-2" href="https://modest-austin-e43477.netlify.app">
+                    Live Demo
+                  </a>
+                  <Link to="/project5">Details</Link>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                {/* <h5 class="card-title">Project 5</h5> */}
+                <p class="card-text">
+                <ul>
+                  <li>This website was created by React-Router-V6.</li>
+                  <li>This is an educational website.</li>
+                  <li>Fully responsive and user friendly.</li>
+                  <li>Some animations have been used on this website</li>
+                </ul>
+                </p>
+              </div>
+            </div>
+            </Pulse>
+          </div>
         <div class="col">
         <Pulse> 
             <div class="card">
@@ -26,7 +62,7 @@ const Projects = () => {
                   </p>
                   <a
                     className="m-2"
-                    href="https://vigorous-franklin-91c743.netlify.app/"
+                    href="https://silly-fermat-0208b6.netlify.app/"
                   >
                     Live Demo
                   </a>
@@ -35,13 +71,50 @@ const Projects = () => {
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Project 1</h5>
+                <h5 class="card-title">Project 2</h5>
+                {/* <h5 class="card-title">Project 1</h5> */}
                 <p class="card-text">
                 <ul>
                   <li>Use register and login authentication.</li>
                   <li>Added Admin Control Dashboard. </li>
                   <li>Users can review my website.</li>
                   <li>Admin will be able to add new admin</li>
+                </ul>
+                </p>
+              </div>
+            </div>
+            </Pulse>
+          </div>
+           {/* ====================================== */}
+           <div class="col">
+          <Pulse>
+            <div class="card">
+              <div className="ui-card ">
+                <img
+                  className="img-fluid"
+                  src="https://i.postimg.cc/3RmKF0F2/Screenshot-152.png"
+                  alt=""
+                />
+                <div className="description">
+                  <p className="project-detail-short">
+                  This website is used only front-end.
+                  You Want to see my Project please click any button.
+                  </p>
+                  <a className="m-2" href="https://friendly-ramanujan-39d91c.netlify.app/">
+                    Live Demo
+                  </a>
+                  <Link to="/project4">Details</Link>{" "}
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Project 3</h5>
+                {/* <h5 class="card-title">Project 4</h5> */}
+                <p class="card-text">
+                <ul>
+                  <li>This website is for users to find the best Foods.</li>
+                  <li>Use Privet Route.</li>
+                  <li>Patients will find all the good doctors.</li>
+                  <li>Can't talk to the doctor until login.</li>
                 </ul>
                 </p>
               </div>
@@ -64,7 +137,7 @@ const Projects = () => {
                   </p>
                   <a
                     className="m-2"
-                    href="https://first-delivery-97194.web.app/"
+                    href="https://first-delivery-97194.web.app"
                   >
                     Live Demo
                   </a>
@@ -72,7 +145,8 @@ const Projects = () => {
                 </div>
               </div>{" "}
               <div class="card-body">
-                <h5 class="card-title">Project 2</h5>
+                <h5 class="card-title">Project 4</h5>
+                {/* <h5 class="card-title">Project 2</h5> */}
                 <p class="card-text">
                 <ul>
                   <li>Users just have to log in with email।</li>
@@ -106,78 +180,8 @@ const Projects = () => {
                 </div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Project 3</h5>
-                <p class="card-text">
-                <ul>
-                  <li>This website is for users to find the best country doctors.</li>
-                  <li>Use Privet Route.</li>
-                  <li>Patients will find all the good doctors.</li>
-                  <li>Can't talk to the doctor until login.</li>
-                </ul>
-                </p>
-              </div>
-            </div>
-            </Pulse>
-          </div>
-          {/* ====================================== */}
-          <div class="col">
-          <Pulse>
-            <div class="card">
-              <div className="ui-card ">
-                <img
-                  className="img-fluid"
-                  src="https://i.postimg.cc/3RmKF0F2/Screenshot-152.png"
-                  alt=""
-                />
-                <div className="description">
-                  <p className="project-detail-short">
-                  This website is used only front-end.
-                  You Want to see my Project please click any button.
-                  </p>
-                  <a className="m-2" href="https://friendly-ramanujan-39d91c.netlify.app/">
-                    Live Demo
-                  </a>
-                  <Link to="/project4">Details</Link>{" "}
-                </div>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Project 4</h5>
-                <p class="card-text">
-                <ul>
-                  <li>This website is for users to find the best country doctors.</li>
-                  <li>Use Privet Route.</li>
-                  <li>Patients will find all the good doctors.</li>
-                  <li>Can't talk to the doctor until login.</li>
-                </ul>
-                </p>
-              </div>
-            </div>
-            </Pulse>
-          </div>
-          
-          {/* ====================================== */}
-          <div class="col">
-          <Pulse>
-            <div class="card">
-              <div className="ui-card ">
-                <img
-                  className="img-fluid"
-                  src="https://i.postimg.cc/HkWSbwfK/Screenshot-165.png"
-                  alt=""
-                />
-                <div className="description">
-                  <p className="project-detail-short">
-                  This website is used only front-end.
-                  You Want to see my Project please click any button.
-                  </p>
-                  <a className="m-2" href="https://modest-austin-e43477.netlify.app">
-                    Live Demo
-                  </a>
-                  <Link to="/project4">Details</Link>{" "}
-                </div>
-              </div>
-              <div class="card-body">
                 <h5 class="card-title">Project 5</h5>
+                {/* <h5 class="card-title">Project 3</h5> */}
                 <p class="card-text">
                 <ul>
                   <li>This website is for users to find the best country doctors.</li>
@@ -190,6 +194,9 @@ const Projects = () => {
             </div>
             </Pulse>
           </div>
+         
+          
+         
           
         </div>
       </div>

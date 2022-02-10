@@ -1,7 +1,7 @@
 import React from "react";
-import Navegation from "./../../../Navegation/Navegation";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Navegation from "../../Navegation/Navegation";
 const Project5Details = () => {
   return (
     <div className="main_div ">
@@ -66,26 +66,19 @@ const Project5Details = () => {
           <div className="col">
             <ul className="p1-details">
               <li>
-                <a target="blank" href="https://vigorous-franklin-91c743.netlify.app/">
+                <a target="blank" href="https://modest-austin-e43477.netlify.app/">
                   Live Link
                 </a>
               </li>
               <li>
                 <a
                   target="blank"
-                  href="https://github.com/Sourov-Paul/Assignment-12-clint-site"
+                  href="https://github.com/Sourov-Paul/School-Project-Client"
                 >
                   Front-Code
                 </a>
               </li>
-              <li>
-                <a
-                  target="blank"
-                  href="https://github.com/Sourov-Paul/Assignment-12-Server-Site"
-                >
-                  Server-Code
-                </a>
-              </li>
+              
             </ul>
           </div>
           <div className="col"></div>

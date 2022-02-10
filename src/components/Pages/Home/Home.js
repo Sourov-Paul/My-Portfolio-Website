@@ -9,6 +9,7 @@ import Skills from '../Skills/Skills';
 import Timeline from '../Timeline/Timeline';
 
 const Home = () => {
+    
     return (
         <div>
             <Navegation></Navegation>

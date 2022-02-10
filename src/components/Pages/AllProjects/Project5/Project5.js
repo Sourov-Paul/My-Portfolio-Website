@@ -1,5 +1,5 @@
 import React from 'react';
-import Navegation from './../../Navegation/Navegation';
+import Navegation from '../../Navegation/Navegation';
 import Project5Details from './Project5Details';
 
 const Project5 = () => {
