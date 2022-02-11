@@ -51,10 +51,10 @@ const SkillRateing = () => {
 	<div class="skill-bar-percent Single Count">85</div>
 </div> 
 
-<div class="skillbar clearfix " data-percent="96%">
+<div class="skillbar clearfix " data-percent="85%">
 	<div class="skillbar-title" style={{background: '#124e8c'}}><span>MongoDB</span></div>
 	<div class="skillbar-bar" style={{background: '#4288d0'}}></div>
-	<div class="skill-bar-percent Count">70</div>
+	<div class="skill-bar-percent Count">85</div>
 </div> 
 
 <div class="skillbar clearfix " data-percent="80%">

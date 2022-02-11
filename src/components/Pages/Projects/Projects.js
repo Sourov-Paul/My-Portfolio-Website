@@ -25,7 +25,7 @@ const Projects = () => {
                   This website is used only front-end.
                   You Want to see my Project please click any button.
                   </p>
-                  <a className="m-2" href="https://modest-austin-e43477.netlify.app">
+                  <a className="m-2" href="https://amazing-liskov-d0791e.netlify.app/">
                     Live Demo
                   </a>
                   <Link to="/project5">Details</Link>
@@ -76,9 +76,12 @@ const Projects = () => {
                 <p class="card-text">
                 <ul>
                   <li>Use register and login authentication.</li>
+                  <li>The email address verification code is sent to verify your email.</li>
+                  <li>Added Payment System.</li>
                   <li>Added Admin Control Dashboard. </li>
                   <li>Users can review my website.</li>
                   <li>Admin will be able to add new admin</li>
+                  <li>Firebase tokens have been used for admin verification</li>
                 </ul>
                 </p>
               </div>
@@ -111,10 +114,13 @@ const Projects = () => {
                 {/* <h5 class="card-title">Project 4</h5> */}
                 <p class="card-text">
                 <ul>
+                  <li><b>This website has been used in React Route V6</b></li>
                   <li>This website is for users to find the best Foods.</li>
-                  <li>Use Privet Route.</li>
-                  <li>Patients will find all the good doctors.</li>
-                  <li>Can't talk to the doctor until login.</li>
+                  <li><b>Using Local Storage</b></li>
+                  <li>The email address verification code is sent to verify your email</li>
+                  <li>Use Privet Route and admin Route.</li>
+                  <li>Using Animation. </li>
+                  <li>Firebase tokens have been used for admin verification</li>
                 </ul>
                 </p>
               </div>

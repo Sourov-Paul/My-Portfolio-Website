@@ -50,14 +50,14 @@ const Project1Details = () => {
           <div className="col">
             <ul className="p1-details">
               <li>
-                <a target="blank" href="https://vigorous-franklin-91c743.netlify.app/">
+                <a target="blank" href="https://silly-fermat-0208b6.netlify.app/">
                   Live Link
                 </a>
               </li>
               <li>
                 <a
                   target="blank"
-                  href="https://github.com/Sourov-Paul/Camera-Shopping-Client-site"
+                  href="https://github.com/Sourov-Paul/happy-shopping-camera"
                 >
                   Front-Code
                 </a>
@@ -65,7 +65,7 @@ const Project1Details = () => {
               <li>
                 <a
                   target="blank"
-                  href="https://github.com/Sourov-Paul/Camera-Shopping-Server-site"
+                  href="https://github.com/Sourov-Paul/happy-shopping-camera-server"
                 >
                   Server-Code
                 </a>

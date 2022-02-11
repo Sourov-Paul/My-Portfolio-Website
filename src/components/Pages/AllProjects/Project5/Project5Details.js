@@ -66,7 +66,7 @@ const Project5Details = () => {
           <div className="col">
             <ul className="p1-details">
               <li>
-                <a target="blank" href="https://modest-austin-e43477.netlify.app/">
+                <a target="blank" href="https://amazing-liskov-d0791e.netlify.app/">
                   Live Link
                 </a>
               </li>

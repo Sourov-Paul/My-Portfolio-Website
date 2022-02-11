@@ -29,7 +29,7 @@ const Banner = () => {
                   <div className="mt-5">
                     <strong className="hello">Hello I'm</strong>
                     <h3 className="m-0">Sourov Paul</h3>
-                    <h4 className="name">Front-End Web Developer (MERN Stack)</h4>
+                    <h4 className="name"> Web Developer (MERN Stack)</h4>
                    
                     <Typewriter
                       options={{

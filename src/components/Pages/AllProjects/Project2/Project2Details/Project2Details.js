@@ -98,7 +98,7 @@ const Project2Details = () => {
                   target="blank"
                   href="https://github.com/Sourov-Paul/Assignment-11-client-site"
                 >
-                  Front-Code
+                  Front-Code 
                 </a>
               </li>
               <li>

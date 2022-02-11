@@ -89,26 +89,19 @@ const Project3Details = () => {
           <div className="col">
             <ul className="p1-details">
               <li>
-                <a target="blank" href="/">
+                <a target="blank" href="https://health-care-882d2.web.app">
                   Live Link
                 </a>
               </li>
               <li>
                 <a
                   target="blank"
-                  href=" "
+                  href="https://github.com/Sourov-Paul/Assignment-10-full-site"
                 >
-                  Front-Code
+                  Code 
                 </a>
               </li>
-              <li>
-                <a
-                  target="blank"
-                  href=" "
-                >
-                  Server-Code
-                </a>
-              </li>
+              
             </ul>
           </div>
           <div className="col"></div>
