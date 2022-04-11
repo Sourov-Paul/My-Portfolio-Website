@@ -201,6 +201,42 @@ const Projects = () => {
             </Pulse>
           </div>
          
+
+          <div class="col">
+          <Pulse>
+            <div class="card">
+              <div className="ui-card ">
+                <img
+                  className="img-fluid"
+                  src="https://i.postimg.cc/fRNZCgt2/Screenshot-193.png"
+                  alt=""
+                />
+                <div className="description">
+                  <p className="project-detail-short">
+                  This website is used only front-end.
+                  You Want to see my Project please click any button.
+                  </p>
+                  <a className="m-2" href="https://majestic-semifreddo-d06171.netlify.app">
+                    Live Demo
+                  </a>
+                  <Link to="/project6">Details</Link>{" "}
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Project 6</h5>
+                {/* <h5 class="card-title">Project 3</h5> */}
+                <p class="card-text">
+                <ul>
+                  <li>This website was created by front end only.</li>
+                  <li>Use Animation and good looking.</li>
+                  
+                </ul>
+                </p>
+              </div>
+            </div>
+            </Pulse>
+          </div>
+         
           
          
           
