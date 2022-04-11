@@ -1,6 +1,6 @@
 /* google fonts cnd */
 @import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Poiret+One&family=Poppins:ital@0;1&family=Raleway:ital@0;1&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
-
+.row.row-cols-1.row-cols-md-2.row-cols-lg-3.g-2 {width: 100% !important}
 p{
     color:#525252;
     font-size:12px;

@@ -6,11 +6,11 @@ import Wobble from 'react-reveal/Wobble';
 
 const Service = () => {
   return (
-    <div id="service" className="p-5">
+    <div id="service" className="mb-5">
       <Wobble><h2 className="text-center">Service</h2></Wobble>
     
-      <div className="main-service container p-5">
-        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 w-90">
+      <div className="main-service container">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
           <div className="col">
            <Fade left>
            <div className="card h-100 main-card">
