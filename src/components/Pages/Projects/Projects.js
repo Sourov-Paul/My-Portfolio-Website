@@ -9,6 +9,7 @@ const Projects = () => {
     return (
       <div className="" id='projects'>  
         <div   className="container">
+          <h2 className='text-center bolded'>My Projects</h2>
         <div class="row row-cols-1 row-cols-md-3 mt-5 g-4 projectas">
            {/* ====================================== */}
            <div class="col">

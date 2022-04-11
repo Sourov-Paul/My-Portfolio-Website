@@ -12,6 +12,7 @@ const SkillRateing = () => {
     return (
         <div className='mainSkillRate'>
         <div className='container'>
+			<h2 className='text-center bolded'>My Skills</h2>
 			<HappyClient></HappyClient>
             <h1 className='skillShowing'>I am showing my work skills here:)</h1>
 
