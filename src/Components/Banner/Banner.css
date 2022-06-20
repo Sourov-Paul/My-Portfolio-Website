@@ -1,0 +1,117 @@
+img.react-reveal.img-fluid.newIMG {
+    width: 50%;
+}
+.main_banner{
+    background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);  
+     height: fit-content;
+     
+}
+strong.hello {
+    color: white;
+    font-size: 20px;
+}
+.react-reveal.mt-5 {
+    display: block;
+    width: 100%;
+}
+span.Typewriter__wrapper {
+    color: aquamarine;
+}
+h3.m-0 {
+    color: white;
+}
+.social-icon{
+    text-decoration: none;
+}
+h4.name {
+    color: #82d26e;
+}
+
+p.some-text.sm-color {
+    color: white;
+    font-family: arial;
+}
+.clr-cv{
+    color: rgb(44, 40, 40) !important;
+    font-family: arial;
+}
+a.nav-link.borderCv {
+    width: fit-content;
+    color: #454040;
+    background: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.5s;
+    padding: 7px !important
+}
+a.nav-link.borderCv:hover{
+    background-color: rgb(28, 151, 34);
+    color: white;
+
+}
+
+
+.socialIcon {
+    width: fit-content;
+}
+
+i.fab.fa-facebook.facebook {
+    color: white;
+    font-size: 30px;
+    transition: all 0.3s;
+    cursor:pointer;
+}
+i.fab.fa-facebook.facebook:hover{
+    color: rgb(14, 86, 219);
+   
+}
+.linkedin {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    transition: all 0.3s;
+    cursor:pointer;
+}
+.linkedin:hover{
+    color: rgba(6, 82, 221,1.0);
+}
+i.fab.fa-github.github {
+    color: white;
+    font-size: 30px;
+    transition: all 0.3s;
+    cursor:pointer;
+}
+
+i.fab.fa-github.github:hover{
+    color: black;
+}
+.socialIcon {
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 776px) {
+    .newIMG {
+        border-radius: 50%;
+        width: 200px;
+        margin-top: 10px;
+      
+    }
+    .rounded.col-sm-12.col-md-6.col-lg-6 {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 776px) {
+    .newIMG {
+        border-radius: 50%;
+       
+        display: flex;
+    }
+    
+    .col-sm-12.col-md-6.col-lg-6 {
+        display: flex;
+      
+        justify-content: flex-end;
+    }
+  }
+  
